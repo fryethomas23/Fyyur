@@ -80,7 +80,7 @@ class VenueForm(Form):
         ]
     )
     address = StringField(
-        'address', validators=[DataRequired()]
+        'address'
     )
     phone = StringField(
         'phone'
